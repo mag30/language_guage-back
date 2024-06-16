@@ -1,0 +1,22 @@
+---
+dataBase:
+  host: "localhost"
+  port: "55432"
+  user: "admin"
+  password: "admin"
+  name: "main"
+
+server:
+  host: "localhost"
+  port: "8085"
+
+auth:
+  salt: "ahbbraegr345a"
+  signingKey: "tqtqbsabsdf4"
+  timeToLive: 15m
+
+adminMigration:
+  adminID: "94a123a8-711d-11ee-a2d8-0242c0a8f005"
+  adminUserName: "admin"
+  adminEmail: "admin@example.com"
+  adminPassword: "admin"
